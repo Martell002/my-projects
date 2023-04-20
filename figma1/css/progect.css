@@ -1,0 +1,362 @@
+body{
+  margin: 0 auto;
+  background-image: url('../img/image 10.png');
+  background-color:rgba(0, 0, 0);
+  font-family:'NeueMachina' ;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #EBEBEB;
+}
+/*header*/
+.header{
+  height: 1230px;
+  background-image: url('../img/2back.png');
+  background-size: 100%;
+}
+.st{
+position: absolute;
+left: 42.75%;
+right: 42.75%;
+top: 174px;
+bottom: 71.93%;
+}
+.QALABR{
+  position: absolute;
+  width: 852px;
+  height: 100px;
+  left: 550px;
+  top: 260.15px;
+font-style: normal;
+font-weight: 700;
+font-size: 104px;
+line-height: 100px;
+
+color: #EBEBEB;
+}
+.meseg{
+position: absolute;
+width: 29.23px;
+height: 191.91px;
+left: 1500.03px;
+top: 384.05px;
+}
+.lan{
+position: absolute;
+width: 21px;
+height: 15px;
+left: 1504.14px;
+top: 606.36px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+color: #EBEBEB;
+}
+.chm{
+position: absolute;
+width: 214.83px;
+height: 23px;
+left: 573.74px;
+top: 481px;
+}.nm{
+  position: absolute;
+  width: 248.74px;
+  height: 23px;
+  left: 820.57px;
+  top: 480px;
+}
+.og{
+  position: absolute;
+  width: 292.83px;
+  height: 23px;
+  left: 1101.31px;
+  top: 480px;  
+}
+.but1{
+position: absolute;
+width: 258.39px;
+height: 122.29px;
+left: 814.85px;
+top: 561.34px;
+}
+.but{
+position: absolute;
+width: 263px;
+height: 23px;
+left: 832px;
+top: 599px;
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 23px;
+text-align: center;
+color: #EBEBEB;
+}
+.yourp{
+position: absolute;
+width: 811px;
+height: 46px;
+left: 582.16px;
+top: 1122.4px;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 46px;
+text-align: center;
+color: #CDDE00;
+}
+/*Progect*/
+.progect{
+  height: 779px;
+}
+.pr{
+position: absolute;
+width: 365px;
+height: 62px;
+left: 371.16px;
+top: 1481.5px;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 62px;
+color: #CDDE00;
+}
+.pr1{
+position: absolute;
+width: 775px;
+height: 62px;
+left: 864px;
+top: 1380px;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 31px;
+color: #EBEBEB;
+}
+.pr2{
+position: absolute;
+width: 720px;
+height: 62px;
+left: 864px;
+top: 1520px;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 31px;
+color: #EBEBEB;
+}
+.pr3{
+  top: 1831px;
+position: absolute;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 39px;
+text-align: center;
+color: #CDDE00;
+}
+.prog{
+  right: 1px;
+  position: absolute;
+}
+/*organisator*/
+.organisator{
+  height: 872px;
+}
+.org{
+  position: absolute;
+  width: 625px;
+  height: 62px;
+  left: 647.5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 62px;
+  color: #CDDE00;
+}
+.orgt{
+  position: absolute;
+  width: 368px;
+  height: 31px;
+  left: 776px;
+  margin-top: 122px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 31px;
+  color: #EBEBEB;
+}
+.orgQALAB{
+  position: absolute;
+  width: 1200.46px;
+  height: 315.25px;
+  left: 359.94px;
+  margin-top: 197px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 31px;
+  color: #EBEBEB;
+}
+
+.org1{
+  position: absolute;
+  width: 777.08px;
+  height: 805.7px;
+  left: -207.33px;
+  margin-top: -1px;
+}
+.org2{
+  position: absolute;
+  width: 256.78px;
+  height: 158.59px;
+  left: 371.89px;
+  margin-top: 550px;
+}
+.or2{
+  color: #EBEBEB;
+  text-decoration: none;
+  list-style-type: none;
+}
+.org2_2{
+  position: absolute;
+  width: 169.27px;
+  height: 25.29px;
+  left: 435.34px;
+  margin-top: 619px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 31px;
+  text-align: center;
+  color: #EBEBEB;
+}
+.hash{
+  position: absolute;
+  width: 129.87px;
+  height: 119.99px;
+  left: 822.59px;
+  margin-top: 550px;
+}
+.Qalab{
+  position: absolute;
+  width: 565.46px;
+  height: 127.04px;
+  left: 961.71px;
+  margin-top: 550px;
+}
+/*sudi*/
+.sudi{
+height: 976px;
+}
+.SUDI{
+position: absolute;
+width: 222px;
+height: 62px;
+left: 849px;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 62px;
+text-align: center;
+color: #CDDE00;
+}
+.SUD{
+position: absolute;
+margin-top: 125px;
+width: 374px;
+height: 31px;
+left: 773px;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 31px;
+color: #EBEBEB;
+}
+.sud{
+top: 225px;
+position: relative;
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+flex-direction: row;
+}
+.zaq{
+position: inherit;
+right: 27px;
+}
+.ZaQ{
+display: flex;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+color: #CDDE00;
+}
+.truwer{
+position: inherit;
+left: -35px;
+}
+.Truwer{
+display: flex;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+color: #CDDE00;
+}
+.saymo{
+position: inherit;
+left: -7px;
+}
+.Saymo{
+display: flex;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+color: #CDDE00;
+}
+.damfrank{
+left: 21px;
+position: inherit;
+}
+.Damfrank{
+display: flex;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+color: #CDDE00;
+}
+.spec{
+position: relative;
+width: 712px;
+height: 31px;
+left: 604px;
+top: 224px;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 31px;
+color: #EBEBEB;
+}
+.Vector23{
+  position: relative;
+  bottom: 364px;
+}
+/*javki*/
+.form{
+position: absolute;
+display: flex;
+flex-direction: row;
+align-content: center;
+flex-wrap: wrap;
+justify-content: center;
+}
