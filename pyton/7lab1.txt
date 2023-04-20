@@ -1,0 +1,2 @@
+def is_triangle(a,b,c):return(a+b>c and a+c>b and b+c>a)
+print('ДА'if is_triangle(*[int(input(i))for i in'abc'])else'НЕТ')

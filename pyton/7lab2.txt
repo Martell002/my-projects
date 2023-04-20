@@ -1,0 +1,2 @@
+def F(i,N):return None if i>N else(print(i),F(i+1,N))
+F(1,int(input('N:')))/7 лаба 2 задание
