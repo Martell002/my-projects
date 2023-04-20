@@ -1,0 +1,261 @@
+ .body{
+  background-image: url('https://phonoteka.org/uploads/posts/2021-04/1618933848_3-phonoteka_org-p-pattern-dlya-fona-saita-4.jpg') ;
+  background-size: 100%;
+  margin: 0;
+font-size: 20px;
+line-height: 1.3;
+color: #000000;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+	width: 1400px;
+	min-height: 500px;
+	margin: 0 auto;
+	background:brown;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.up{
+	position: fixed;
+	left: 10px;
+	bottom: 20px;
+}
+.header {
+	display: flex;
+	height: 270px;
+  justify-content: center;
+}
+.title-block{
+		display: flex;
+		justify-content: center;
+		position: relative;
+		width: 70%;
+		background: url("images/logo.jpg") no-repeat center center / cover;
+		margin-right: 10px ;
+
+}
+.title-block::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.5;
+}
+.num {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+.num:hover {
+    color: #f30909;
+}
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 50px;
+}
+.phone-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.nav ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: ghostwhite;
+	margin: 10px 0;
+  border-radius: 25px;
+}
+.nav li{
+	display: inline-block;
+}
+.nav li a{
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	transition: all .4s ease-in-out;
+}
+.nav li a:hover{
+	background: rgb(238, 16, 16);
+}
+.content-wrapper{
+	display: flex;
+}
+.content{
+	width: 70%;
+	padding: 20px;
+}
+.content p{
+	line-height: 20px;
+}
+.sidebar{
+	padding: 26px;
+	width: 24%;
+background: ghostwhite;
+border-radius: 50px;
+line-height: .8;
+}
+.Info-title{
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+.history{
+	margin-top: 500px;
+	padding-bottom: 200px;
+}
+.history-info{
+  background: ghostwhite;
+  border-radius: 50px;
+  padding: 43px;
+  width: 35%;
+  line-height: .9;
+}
+.history-title{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -30px;
+  }
+.history-desc{
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+  left: 20px;
+}
+.history-image{
+  background-image: url("assets/images/Shop.jpg");
+  background-size: cover;
+position: absolute;
+left: 800px;
+}
+.history-holder{
+	display: flex;
+}
+.images-1 {
+  width: 600px;
+  height: 600px;
+}
+.menus{
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+.menus-title{
+  font-size: 94px;
+  padding-top: 250px;
+  color: #000;
+  text-align: center;
+  padding-bottom: 63px;
+}
+.menus-item {
+  position: relative;
+  display: inline-table;
+  background-color: ghostwhite;
+  color: brown;
+  text-align: center;
+  width: 31%;
+  padding-top: 44px;
+  padding-bottom: 34px;
+  margin-right: 35px;
+  margin-bottom: 23px;
+  border-radius: 50px;
+  left: 20px;
+}
+.menus-text{
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+.menus-subtext{
+	font-size: 16px;
+}
+.menus-btn {
+  background-color: #f30909;
+  text-decoration: none;
+  padding: 20px 170px;
+  color: #fff;
+  font-size: 20px;    
+  border-radius: 20px;
+}
+.menus-button {
+    margin-top: 20px;
+}
+.Down{
+  background-color: brown;
+  padding: 30px 0px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+@media screen  and (max-device-width: 767px) {
+  .body{
+   font-size: large;
+  }
+  .container{
+    width: 90%;
+	min-height: 500px;
+	margin: 0 auto;
+	background:brown;
+  margin-top: 50px;
+  border-radius: 20px;
+  }
+  .header {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+  }
+  .images-1 {
+    width: 420px;
+    height: 396px;
+  }
+  .history-image{
+    background-image: url("assets/images/Shop.jpg");
+    background-size: cover;
+    position: inherit;
+  }
+  .menus-item {
+    left: 245px;
+    position: sticky;
+    display: inline-table;
+    background-color: ghostwhite;
+    color: brown;
+    text-align: center;
+    width: 31%;
+    padding-top: 44px;
+    padding-bottom: 34px;
+    margin-right: 35px;
+    margin-bottom: 23px;
+    border-radius: 50px;
+}
+.history{
+	margin-top: 150px;
+  padding-bottom: 0px;
+}
+.Down {
+  background-color: brown;
+  padding: 30px 0px;
+  font-size: 19px;
+  color: black;
+  text-align: center;
+  margin-bottom: 18px;
+  border-radius: 20px;
+}
+ }
+ 
